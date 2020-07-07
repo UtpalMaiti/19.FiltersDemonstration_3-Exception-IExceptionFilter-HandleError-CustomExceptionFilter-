@@ -1,0 +1,25 @@
+﻿@model HandleErrorInfo
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+    <h2>Welcome to Test Error View...</h2>
+        <h2>Understanding Exception Filters...</h2>
+        <p>
+            <label>Controller Name : <b>@Model.ControllerName</b></label>
+        </p>
+        <p>
+            <label>Action Name : <b>@Model.ActionName</b></label>
+        </p>
+        <p>
+            <label>Exception Message : <b>@Model.Exception.Message</b></label>
+        </p>
+    </div>
+</body>
+</html>
